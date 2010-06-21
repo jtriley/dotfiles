@@ -1,0 +1,122 @@
+!XTerm*charClass: 33:48,37:48,45-47:48,64:48
+!XTerm*charClass: 33:48,37:48,43:48,45-47:48,64:48,126:48,95:48
+XTerm.charClass: 33:48,35:48,37:48,43:48,45-47:48,58:48,64:48,95:48,126:48,35:48
+!black
+!XTerm.color0:   rgb:00/00/00
+!XTerm*color8:   rgb:60/60/60
+XTerm*color8:   gray40
+!red
+!XTerm.color1:   rgb:a7/82/71
+!XTerm.color9:   rgb:87/62/51
+!green
+!XTerm.color2:   rgb:a2/bc/8d
+!XTerm.color10:  rgb:6b/7c/5d
+!yellow
+!XTerm.color3:   rgb:80/80/50
+!XTerm.color11:  rgb:a0/a0/70
+!blue
+!XTerm.color4:   rgb:61/7b/aa
+!XTerm.color12:  rgb:5b/73/a0
+!magenta
+!XTerm.color5:   rgb:a0/70/a0
+!XTerm.color13:  rgb:a8/78/a8
+!cyan
+!XTerm.color6:   rgb:52/88/8e
+!XTerm.color14:  rgb:66/aa/b2
+!white
+!XTerm.color7:   rgb:b0/b0/b0
+!XTerm.color15:  rgb:b0/b0/b0
+
+Xterm*cursorColor: gray
+
+xterm*Font: -misc-fixed-medium-r-normal-*-*-140-*-*-c-*-iso8859-1
+xterm*boldMode: false
+xterm*background: black
+xterm*foreground: gray
+xterm*SimpleMenu*background:  #c5c2c5
+xterm*SimpleMenu*foreground:  #000000
+!XTerm*VT100*colorBD:   lightblue
+
+XTerm*VT100*colorBD:   rgb:75/80/f4
+XTerm*VT100*colorBDMode:        on
+XTerm*VT100*colorUL:    rgb:f75/51/51
+XTerm*VT100*colorULMode:        on
+
+aterm.font: -misc-fixed-medium-r-normal-*-*-140-*-*-c-*-iso8859-1
+!aterm.font: -schumacher-clean-medium-r-normal-*-*-140-*-*-c-*- iso646.1991-irv
+aterm.scrollBar: false
+aterm.foreground: grey
+aterm.background: black
+!aterm.fading: 58
+!aterm.cursorColor: rgb:66/77/99
+!aterm.cursorColor2: rgb:18/18/18
+!aterm.colorUL: rgb:d0/90/70
+!aterm.colorBD: rgb:70/80/a0
+aterm.colorBD:   rgb:75/80/f4
+!aterm.VT100.colorBDMode:        on
+aterm.colorUL:    rgb:f75/51/51
+!aterm.VT100.colorULMode:        on
+aterm*transparent: false
+aterm*shading: 49
+aterm*saveLines: 5767
+Aterm*tintingType: invert
+Aterm*tinting:        grey
+!Aterm*tinting:       yellow
+aterm*fading: 90
+aterm*scrollTtyOutput: false
+aterm*scrollTtyKeypress: true
+
+XTerm.saveLines :  5536
+*scrollTtyOutput: False
+
+xterm.metaSendsEscape:   True
+XTerm*modifier: alt
+xterm.scrollBar: false
+XTerm*scrollBar: false
+!XTerm*eightBitInput:    true
+!XTerm*eightBitOutput:   true
+
+URxvt*loginShell:true
+URxvt*transparent:false
+URxvt*shading:40
+URxvt*background:Black
+URxvt*foreground:White
+URxvt*scrollBar:false
+!URxvt*scrollBar_right:true
+!URxvt*transpscrollbar:true
+!URxvt*saveLines:32767
+URxvt*letterSpace: -1
+
+URxvt.perl-ext-common : default,matcher
+URxvt.urlLauncher     : konqueror
+URxvt.matcher.button  : 1
+URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+URxvt*font: xft:Monospace-11:dpi=90
+
+! to match gnome-terminal "Linux console" scheme
+! black
+URxvt.termName: rxvt
+URxvt.color0  : #000000
+URxvt.color8  : #555555
+! red
+URxvt.color1  : #AA0000
+URxvt.color9  : #FF5555
+! green
+URxvt.color2  : #00AA00
+URxvt.color10 : #55FF55
+! yellow
+URxvt.color3  : #AA5500
+URxvt.color11 : #FFFF55
+! blue
+URxvt.color4  : #0000AA
+URxvt.color12 : #5555FF
+! magenta
+URxvt.color5  : #AA00AA
+URxvt.color13 : #FF55FF
+! cyan
+URxvt.color6  : #00AAAA
+URxvt.color14 : #55FFFF
+! white
+URxvt.color7  : #AAAAAA
+URxvt.color15 : #FFFFFF
