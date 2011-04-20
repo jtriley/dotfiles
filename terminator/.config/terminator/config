@@ -1,0 +1,31 @@
+[global_config]
+  title_receive_bg_color = "#fffface73163"
+  title_transmit_bg_color = "#00003b63ffff"
+[keybindings]
+  go_up = <Ctrl>k
+  resize_up = <Ctrl><Shift>k
+  resize_left = <Ctrl><Shift>h
+  full_screen = <Ctrl>f
+  go_down = <Ctrl>j
+  go_right = <Ctrl>l
+  go_left = <Ctrl>h
+  resize_right = <Ctrl><Shift>l
+  resize_down = <Ctrl><Shift>j
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000000000:#CDCB00000000:#0000CDCB0000:#CDCBCDCB0000:#1E1A908FFFFF:#CDCB0000CDCB:#0000CDCBCDCB:#E5E2E5E2E5E2:#4CCC4CCC4CCC:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#46458281B4AE:#FFFF0000FFFF:#0000FFFFFFFF:#FFFFFFFFFFFF"
+    use_system_font = False
+    foreground_color = "#FFFFFF"
+    show_titlebar = False
+    font = Monospace 11
+    background_color = "#000000"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
