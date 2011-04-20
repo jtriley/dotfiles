@@ -88,7 +88,7 @@ URxvt*scrollBar:false
 URxvt*letterSpace: -1
 
 URxvt.perl-ext-common : default,matcher
-URxvt.urlLauncher     : konqueror
+URxvt.urlLauncher     : chromium
 URxvt.matcher.button  : 1
 URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
