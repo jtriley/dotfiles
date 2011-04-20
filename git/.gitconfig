@@ -1,0 +1,23 @@
+[user]
+    jtriley = Justin Riley
+    name = Justin Riley
+    email = justin.t.riley@gmail.com
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    dfc = diff --cached
+    lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset' --abbrev-commit --date=relative"
+[color]
+    diff = always
+    branch = auto
+    interactive = auto
+    status = auto
+[core]
+    whitespace = fix
+[apply]
+    whitespace = error
+[push]
+    default = current
