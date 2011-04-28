@@ -4,11 +4,13 @@
     email = justin.t.riley@gmail.com
 [alias]
     st = status
+    sts = status -s
     ci = commit
     br = branch
     co = checkout
     df = diff
     dfc = diff --cached
+    unstage = reset HEAD
     lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset' --abbrev-commit --date=relative"
 [color]
     diff = always
