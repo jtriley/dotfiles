@@ -1,0 +1,4 @@
+" Use larger font in gvim/macvim
+set guifont=Monaco:h14
+" Tell macvim to maximize horizontally in full-screen mode
+set fuopt+=maxhorz
