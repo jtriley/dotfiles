@@ -56,7 +56,8 @@ set showmode
 set backspace=indent,eol,start
 " Put (vim) at the end of the window title
 set title titlestring=%t\ (vim)
-
+" Set spell checker language
+set spelllang=en_us
 
 " lusty-juggler
 " http://www.vim.org/scripts/script.php?script_id=2050
