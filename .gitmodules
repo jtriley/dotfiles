@@ -37,3 +37,6 @@
 [submodule "zsh/omz"]
 	path = zsh/omz
 	url = git@github.com:jtriley/oh-my-zsh.git
+[submodule "vim/bundle/lusty"]
+	path = vim/bundle/lusty
+	url = git://github.com/sjbach/lusty.git

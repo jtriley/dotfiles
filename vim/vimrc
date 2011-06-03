@@ -58,9 +58,12 @@ set backspace=indent,eol,start
 set title titlestring=%t\ (vim)
 
 
+" lusty-juggler
+" http://www.vim.org/scripts/script.php?script_id=2050
+nmap <silent> <Leader>b :LustyJuggler<CR>
 "list the buffers and await choice
 "(either numbers or some substring, enter keeps you in the same buffer)
-map <leader>b :ls<cr>:buffer<space>
+"map <leader>b :ls<cr>:buffer<space>
 "go to the next buffer
 map <leader>] :bn<CR>
 "go to the previous buffer
