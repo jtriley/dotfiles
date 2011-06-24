@@ -1,9 +1,6 @@
 [submodule "vim/bundle/command-t"]
 	path = vim/bundle/command-t
 	url = git://github.com/vim-scripts/Command-T.git
-[submodule "vim/bundle/extradite"]
-	path = vim/bundle/extradite
-	url = git://github.com/vim-scripts/extradite.vim.git
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
@@ -49,3 +46,6 @@
 [submodule "vim/bundle/vim-virtualenv"]
 	path = vim/bundle/vim-virtualenv
 	url = git://github.com/jmcantrell/vim-virtualenv.git
+[submodule "vim/bundle/extradite"]
+	path = vim/bundle/extradite
+	url = git://github.com/int3/vim-extradite.git
