@@ -93,6 +93,7 @@ URxvt.matcher.button  : 1
 URxvt*matcher.pattern.1: \\b(mailto|http|https|ftp|file):[/]*[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 URxvt*matcher.pattern.2: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
 URxvt*font: xft:Monospace-11:dpi=90
+URxvt.print-pipe: cat > $(TMPDIR=$HOME mktemp urxvt.XXXXXX)
 
 ! to match gnome-terminal "Linux console" scheme
 ! black
