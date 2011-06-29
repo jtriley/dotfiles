@@ -49,3 +49,6 @@
 [submodule "vim/bundle/extradite"]
 	path = vim/bundle/extradite
 	url = git://github.com/int3/vim-extradite.git
+[submodule "vim/bundle/vim-rst-tables"]
+	path = vim/bundle/vim-rst-tables
+	url = git@github.com:jtriley/vim-rst-tables.git
