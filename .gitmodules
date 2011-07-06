@@ -55,3 +55,6 @@
 [submodule "vim/bundle/vim-togglemouse"]
 	path = vim/bundle/vim-togglemouse
 	url = git://github.com/nvie/vim-togglemouse.git
+[submodule "vim/bundle/vim-rst-headings"]
+	path = vim/bundle/vim-rst-headings
+	url = git@github.com:jtriley/vim-rst-headings.git
