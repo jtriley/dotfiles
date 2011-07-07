@@ -58,6 +58,9 @@ set backspace=indent,eol,start
 set title titlestring=%t\ (vim)
 " Set spell checker language
 set spelllang=en_us
+" Use F2 to toggle paste (Damn you autoindent! ;)
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
 
 " lusty-juggler
 " http://www.vim.org/scripts/script.php?script_id=2050
