@@ -58,3 +58,6 @@
 [submodule "vim/bundle/vim-rst-headings"]
 	path = vim/bundle/vim-rst-headings
 	url = git@github.com:jtriley/vim-rst-headings.git
+[submodule "vim/bundle/vim-pep8"]
+	path = vim/bundle/vim-pep8
+	url = git://github.com/nvie/vim-pep8.git
