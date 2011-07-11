@@ -81,3 +81,7 @@ highlight BadWhitespace ctermbg=red guibg=red
 match BadWhitespace /^\t\+/
 " Display trailing whitespace as bad.
 match BadWhitespace /\s\+$/
+
+" Setup vim-ghwiki-preview plugin
+let ghwiki_preview_repo = 'jtriley/StarCluster'
+let ghwiki_preview_browser = 'chromium'
