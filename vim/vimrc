@@ -81,6 +81,12 @@ highlight BadWhitespace ctermbg=red guibg=red
 match BadWhitespace /^\t\+/
 " Display trailing whitespace as bad.
 match BadWhitespace /\s\+$/
+" Removes trailing spaces
+function RemoveTrailingWhiteSpace()
+  %s/\s*$//
+  ''
+:endfunction
+map <F3> :call RemoveTrailingWhiteSpace()<CR>
 
 " Setup vim-ghwiki-preview plugin
 let ghwiki_preview_repo = 'jtriley/StarCluster'
