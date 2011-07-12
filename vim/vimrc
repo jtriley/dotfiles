@@ -91,3 +91,11 @@ map <F3> :call RemoveTrailingWhiteSpace()<CR>
 " Setup vim-ghwiki-preview plugin
 let ghwiki_preview_repo = 'jtriley/StarCluster'
 let ghwiki_preview_browser = 'chromium'
+
+" Mac-specific settings
+if has("unix")
+  let s:uname = system("uname")
+  if s:uname == "Darwin\n"
+    let ghwiki_preview_browser = "open"
+  endif
+endif
