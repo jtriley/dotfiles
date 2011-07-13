@@ -99,3 +99,7 @@ if has("unix")
     let ghwiki_preview_browser = "open"
   endif
 endif
+
+" vim-conque keybindings
+nnoremap <leader>cv :ConqueTermVSplit zsh<CR>
+nnoremap <leader>ch :ConqueTermSplit zsh<CR>
