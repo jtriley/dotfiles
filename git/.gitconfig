@@ -14,7 +14,7 @@
     undolast = reset --soft HEAD^
     lg = "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)[%an]%Creset' --abbrev-commit --date=relative"
 [color]
-    diff = always
+    diff = auto
     branch = auto
     interactive = auto
     status = auto
