@@ -103,3 +103,4 @@ endif
 " vim-conque keybindings
 nnoremap <leader>cv :ConqueTermVSplit zsh<CR>
 nnoremap <leader>ch :ConqueTermSplit zsh<CR>
+let g:ConqueTerm_CloseOnEnd = 1
