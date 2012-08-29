@@ -2,3 +2,5 @@
 *.o
 *.bundle
 vim/.netrwhist
+ipython/profile_default/db/dhist
+ipython/profile_default/history.sqlite
