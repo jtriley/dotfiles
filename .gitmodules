@@ -27,7 +27,7 @@
 	url = git://github.com/tpope/vim-pathogen.git
 [submodule "zsh/omz"]
 	path = zsh/omz
-	url = git@github.com:jtriley/oh-my-zsh.git
+	url = git://github.com/jtriley/oh-my-zsh.git
 [submodule "vim/bundle/lusty"]
 	path = vim/bundle/lusty
 	url = git://github.com/sjbach/lusty.git
@@ -48,19 +48,19 @@
 	url = git://github.com/int3/vim-extradite.git
 [submodule "vim/bundle/vim-rst-tables"]
 	path = vim/bundle/vim-rst-tables
-	url = git@github.com:jtriley/vim-rst-tables.git
+	url = git://github.com/jtriley/vim-rst-tables.git
 [submodule "vim/bundle/vim-togglemouse"]
 	path = vim/bundle/vim-togglemouse
 	url = git://github.com/nvie/vim-togglemouse.git
 [submodule "vim/bundle/vim-rst-headings"]
 	path = vim/bundle/vim-rst-headings
-	url = git@github.com:jtriley/vim-rst-headings.git
+	url = git://github.com/jtriley/vim-rst-headings.git
 [submodule "vim/bundle/vim-pep8"]
 	path = vim/bundle/vim-pep8
 	url = git://github.com/nvie/vim-pep8.git
 [submodule "vim/bundle/vim-ghwiki-preview"]
 	path = vim/bundle/vim-ghwiki-preview
-	url = git@github.com:jtriley/vim-ghwiki-preview.git
+	url = git://github.com/jtriley/vim-ghwiki-preview.git
 [submodule "vim/bundle/ctrlp"]
 	path = vim/bundle/ctrlp
 	url = git://github.com/kien/ctrlp.vim.git
@@ -69,4 +69,4 @@
 	url = git://github.com/vim-scripts/YankRing.vim.git
 [submodule "vim/bundle/vim-ipython"]
 	path = vim/bundle/vim-ipython
-	url = https://github.com/ivanov/vim-ipython.git
+	url = git://github.com/ivanov/vim-ipython.git
