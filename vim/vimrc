@@ -107,3 +107,6 @@ endif
 nnoremap <leader>cv :ConqueTermVSplit zsh<CR>
 nnoremap <leader>ch :ConqueTermSplit zsh<CR>
 let g:ConqueTerm_CloseOnEnd = 1
+
+imap <leader>xp <C-o>"+gP
+nmap <leader>xp <C-o>"+gP
