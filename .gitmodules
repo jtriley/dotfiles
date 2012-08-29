@@ -61,3 +61,6 @@
 [submodule "vim/bundle/vim-ghwiki-preview"]
 	path = vim/bundle/vim-ghwiki-preview
 	url = git@github.com:jtriley/vim-ghwiki-preview.git
+[submodule "vim/bundle/ctrlp"]
+	path = vim/bundle/ctrlp
+	url = git://github.com/kien/ctrlp.vim.git
