@@ -66,7 +66,8 @@ set pastetoggle=<F2>
 
 " lusty-juggler
 " http://www.vim.org/scripts/script.php?script_id=2050
-nmap <silent> <Leader>b :LustyJuggler<CR>
+"nmap <silent> <Leader>b :LustyJuggler<CR>
+nmap <silent> <Leader>b :CtrlP<CR>
 "list the buffers and await choice
 "(either numbers or some substring, enter keeps you in the same buffer)
 "map <leader>b :ls<cr>:buffer<space>
