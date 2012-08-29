@@ -21,7 +21,7 @@
 [core]
     whitespace = fix
 [apply]
-    whitespace = error
+    whitespace = fix
 [push]
     default = current
 [github]
