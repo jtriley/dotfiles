@@ -5,6 +5,7 @@
 [alias]
     st = status
     sts = status -s
+    stsu = status -s -uno
     ci = commit
     br = branch
     co = checkout
