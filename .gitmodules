@@ -28,9 +28,6 @@
 [submodule "zsh/omz"]
 	path = zsh/omz
 	url = git://github.com/jtriley/oh-my-zsh.git
-[submodule "vim/bundle/lusty"]
-	path = vim/bundle/lusty
-	url = git://github.com/sjbach/lusty.git
 [submodule "vim/bundle/unimpaired"]
 	path = vim/bundle/unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
