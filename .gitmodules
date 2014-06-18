@@ -64,3 +64,6 @@
 [submodule "vim/bundle/vim-ipython"]
 	path = vim/bundle/vim-ipython
 	url = git://github.com/ivanov/vim-ipython.git
+[submodule "vim/bundle/zoomwin"]
+	path = vim/bundle/zoomwin
+	url = https://github.com/regedarek/ZoomWin.git
