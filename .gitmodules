@@ -76,3 +76,6 @@
 [submodule "vim/bundle/vim-yaml"]
 	path = vim/bundle/vim-yaml
 	url = https://github.com/stephpy/vim-yaml.git
+[submodule "tmux/tmux-powerline"]
+	path = tmux/tmux-powerline
+	url = git://github.com/erikw/tmux-powerline.git
