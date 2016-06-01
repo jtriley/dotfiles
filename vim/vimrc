@@ -10,9 +10,10 @@ syntax on
 if $TERM!="linux"
 set t_Co=256
 "colorscheme vitamins
-colorscheme mustang
+"colorscheme mustang
 "colorscheme tortepi
 "colorscheme vividchalk
+colorscheme solarized
 endif
 
 let mapleader=","
