@@ -111,3 +111,5 @@ let g:ConqueTerm_CloseOnEnd = 1
 
 imap <leader>xp <C-o>"+gP
 nmap <leader>xp <C-o>"+gP
+
+let g:Powerline_symbols = 'fancy'
