@@ -20,3 +20,6 @@ function vi_mode_prompt_info() {
 if [[ "$RPS1" == "" && "$RPROMPT" == "" ]]; then
   RPS1='$(vi_mode_prompt_info)'
 fi
+
+# fix ctrl-r when in vi-mode: https://luxing.im/oh-my-zsh-ctrlr-binding/
+bindkey "^R" history-incremental-search-backward
